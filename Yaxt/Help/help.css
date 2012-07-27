@@ -1,0 +1,12 @@
+﻿body
+{
+    padding:0px;
+    font-family: Arial,Helvetica,Sans;
+    font-size:12px;
+}
+
+td.footer
+{
+    font-size:8px;
+    text-align:center;
+}

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SchemaTool</RootNamespace>
+    <AssemblyName>SchemaTool</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Comparison-Include.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.3.1.24483, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\temp\cs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveEnvironmentContext.cs" />
+    <Compile Include="Controls\DoubleBufferedTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCopySchemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCopySchemas.designer.cs">
+      <DependentUpon>frmCopySchemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmErrorDialog.designer.cs">
+      <DependentUpon>frmErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNewCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNewCompare.designer.cs">
+      <DependentUpon>frmNewCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucSchemaDiff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucSchemaDiff.designer.cs">
+      <DependentUpon>ucSchemaDiff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucSchemaObjectView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucSchemaObjectView.designer.cs">
+      <DependentUpon>ucSchemaObjectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPropertyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPropertyView.Designer.cs">
+      <DependentUpon>frmPropertyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSchemaDiff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSchemaDiff.Designer.cs">
+      <DependentUpon>frmSchemaDiff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSchemaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSchemaView.Designer.cs">
+      <DependentUpon>frmSchemaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCopySchemas.resx">
+      <DependentUpon>frmCopySchemas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmErrorDialog.resx">
+      <DependentUpon>frmErrorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNewCompare.resx">
+      <DependentUpon>frmNewCompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucSchemaDiff.resx">
+      <DependentUpon>ucSchemaDiff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucSchemaObjectView.resx">
+      <DependentUpon>ucSchemaObjectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPropertyView.resx">
+      <DependentUpon>frmPropertyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSchemaDiff.resx">
+      <DependentUpon>frmSchemaDiff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSchemaView.resx">
+      <DependentUpon>frmSchemaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Help\yaxt.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectionChangedEventArgs.cs" />
+    <Compile Include="StatusChangedEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Comparison-Include.ico" />
+    <Content Include="Help\any.png" />
+    <Content Include="Help\attribute.png" />
+    <Content Include="Help\choice.png" />
+    <Content Include="Help\Comparison.png" />
+    <Content Include="Help\copy.html" />
+    <Content Include="Help\diff.html" />
+    <Content Include="Help\help.css" />
+    <Content Include="Help\Index.html" />
+    <Content Include="Help\install-logo-small.bmp" />
+    <Content Include="Help\property.png" />
+    <Content Include="Help\SchemaCopy.png" />
+    <Content Include="Help\SchemaTool.png" />
+    <Content Include="Help\sequence.png" />
+    <Content Include="Help\ss1.png" />
+    <Content Include="Help\ss2.png" />
+    <Content Include="Help\ss3.png" />
+    <Content Include="Help\ss4.png" />
+    <Content Include="Help\UserInterface.html" />
+    <Content Include="Help\view.html" />
+    <Content Include="Help\xsdOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Shared Projects\XmlTool\src\VisiXmlTools\MohawkCollege.EHR.Util.SimpleXSD\MohawkCollege.EHR.Util.SimpleXSD.csproj">
+      <Project>{67EB17AC-E192-41FC-94C8-2289E54B4387}</Project>
+      <Name>MohawkCollege.EHR.Util.SimpleXSD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Shared Projects\XmlTool\src\VisiXmlTools\MohawkCollege.EHR.Util.XsdDiff\MohawkCollege.EHR.Util.XsdDiff.csproj">
+      <Project>{317975DC-4B8E-4317-A02D-309354D5D3C1}</Project>
+      <Name>MohawkCollege.EHR.Util.XsdDiff</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

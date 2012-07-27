@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Schema Tool Help</title>
+		<link rel="Stylesheet" href="help.css" />
+	</head>
+	<body>
+	    <h1>Schema Diff</h1>
+	    <p>The schema differencer will compare two schemas and will illustrate the differences between the two schemas. To perform a schema diff follow these steps:</p>
+	    <ol>
+	        <li>Click <b>File -&gt; Xml Schema Diff</b></li>
+	        <li>When the "New Comparison" window appears set the "old" and "new" schemas by using the ellipsis button.
+	            <img src="ss5.png" />
+	        </li>
+	        <li>Press the compare button.</li>
+	    </ol>
+	    <p>When the comparison has completed you will be presented with the comparison result window (shown below)</p>
+	    <img src="ss6.png" />
+	    <ol>
+	        <li><b>Comparison Summary</b> - Shows the complete structure of both files and annotates any differences</li>
+	        <li><b>"Old File" Copy</b> - Shows the selected structure as it existed in the original file</li>
+	        <li><b>"New File" Copy</b> - Shows the selected structure as it exists in the new file</li>
+	        <li><b>Current Change Summary</b> - Shows details of the currently selected change</li>
+	    </ol>
+	    <p>The colours of the difference tree illustrate what change has occured. The colour key is listed below:</p>
+	    <table>
+	        <tr>
+	            <td width="10px" bgcolor="#ff9999">&nbsp;</td>
+	            <td>Removal</td>
+	            <td>Structure appears in the original file but not the new file</td>
+	        </tr>
+	        <tr>
+	            <td width="10px" bgcolor="#99ff99">&nbsp;</td>
+	            <td>Addition</td>
+	            <td>Structure appears in the new file but not the original file</td>
+	        </tr>
+	        <tr>
+	            <td width="10px" bgcolor="#ffff99">&nbsp;</td>
+	            <td>Child Changes</td>
+	            <td>Node at this level is the same (data type and name) however changes appear below this level</td>
+	        </tr>
+	        <tr>
+	            <td width="10px" bgcolor="#9999ff">&nbsp;</td>
+	            <td>Type Change</td>
+	            <td>The nodes have the same name in both files, however the data type of the node has changed</td>
+	        </tr>
+	        <tr>
+	            <td width="10px" bgcolor="#99ffff">&nbsp;</td>
+	            <td>Fixed Value Change</td>
+	            <td>The fixed value of the node has changed between the two versions</td>
+	        </tr>
+
+	    </table>
+	        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center"><img src="install-logo-small.bmp" /></td>
+            </tr>
+            <tr>
+                <td class="footer">Copyright (C) 2010, Mohawk College of Applied Arts and Technology</td>
+            </tr>
+        </table>
+	</body>
+</html>

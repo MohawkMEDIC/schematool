@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIMAAAEDCAYAAAAWWrcKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjLX7mlD
+        AAAP80lEQVR4Xu2dcYwVRx3H+xfl+EOMTSxRQ6wpIgGFllCUSCmgJ5SWVqKViqSVFi2V9t7RuyuU2KNt
+        tApJew2KrUqA1IohNlRDbSE0Z8GKPRv4oyaVKEbFs0nB0Ahppa2Ov++7nevvze17b/ft3s7bt9+XTN7d
+        25n5zXx+3/3N7L6deRdcwBcJtCiBHS3aL3arAQKmgTIs0qIEKIYWdWwj3Rohhsdmzlwtyai0IGrFUmaV
+        pPOSzkpaHrUc8zUHgdTEIM6f4IjofHN0ka2ISoBiiEqqAPlSEwNYYWhQw8S1BeDXUl1MVQwtRaaAnaEY
+        Cuj0al2OJAYJ/RMlHVATxAH5+3K3UmcC+ULLc376yd5LJBlJqyVdLGmnpPPBZwfk/SOAgHdJe4PPcRz5
+        LnIBBfm2yvtgkBd1D0hqD8m7KshzqbxfK+ls8H+nzSv/t0naKOmUso12zQpxThQxrAnmAfpy0/49W9dZ
+        RDHAEXDYNuUM/G8THL9MCUQf69fwJM9UVU7ns39XTMIkLwSIY31Oub5AgBfJ5yer1dmgGMJEYD97nGJ4
+        1/E4Mz+lIoF2xAk59tHg2CwljunqLJ4unyMfxPOeIC/O7DWBQ59yxGPFAEFsD6IA8n8wKPutoFy/vE9U
+        9aH+Ew2K4aSc8eV+yPusWvcSihwZEAEmV3EWRFExJKizOdIlV+DUgSr1bwsZQsYowX0o4ngdZZioaK84
+        /HHtdEaGocgwYoIkny2wYTzEWfasXu04GGd2SdLxsPBeRQwVdQQRwA5fFUNRHVFEEUPF7WgRQh/FEFAV
+        h1noicWA6FFrjIc4YoihqhBrCIJiiBhCQ7OlLIZNQTTYI++XOI4vTyJjiGGynS/E6B/FEAPWiKwpiwET
+        PTjdnXtg/I8rhvFqmBlxCVulzxRDE4lhi51j4MogGPtnyN/H4oohKIsrDIjIvZpYLJ8NNng1wTlDNcGk
+        HBlmh00ag8/KN7KiDhOBGDBU2BtgI+5bUAxJwkBIWYzt1cZm+XxecGxLyNWEvXu40nEw7kHYSABHlu9i
+        Bmf3KSdvaB1OnolSFnc77d1JvONO6FyKIWUxtFh1fOytxRyapDsUQxJ6LEsCJEACTUEAt54RzpFa/xmB
+        pkBebkRi7mOkkmWSDkg6q5yIq4K9koa/sYzR58SNimEr66xW5FHe+zJuXCLuuOt3TAkgrIMjvmCK0MFE
+        jYpQv88sUURg8+RKDGhsvc5RDJXSq8dLH8+VGLBoxDYeTwC9X/UbX0JBCBU3nCKekq0cGVwEmBNZho2c
+        OBGRRsqWiLtW8YZI5oYyTQvmE3qOgTnHpUEdbqMwL3lQkhUf8pafagp5LZbP9NCFp52+Igl16JduO76L
+        QH3PB47BfMc+j2lt27Yij2sbeVZIQrtQ1taNB3VGPNfptCOOGMK4wQb6XO0Vp0wiMRxXHQcAOKz85VON
+        1yanjOsUFHUb1RdS5qR8Nt6xE5bP1r/Hyavtwp6OcvYYHn6tZluLCyKuFf5X1eARVQzddWygf67g45ZJ
+        JAYsNHUhAOpWSeVnFJ1XWP56Yghzki2jH08DcPv59kCUEKZ25tWqPdpuNRsQXDUn6282IQb0eYpyyCeU
+        wBAtXEfZpkQRA2xFmWt0qP41UiaRGGAbDq4G0x0DX1adQvieETQeoBDq5gX/60YBwprg86mOLfs5Duvw
+        rJ+HnK5s6ucoNVw45OJAQP0OeNhA+2DbjSaKfcWfmDtBGAjhtkzF8xsqdxQxPKXqgUDLD+vKCw8UQ/jW
+        hv6Sr5EyicWARgHkRkl6DmAbaEMkJpQaJpxU7aUbhaFIv+BQW09fcKBemLb59Q0s3RYdYTDG62P6jNaA
+        XaHjXssxp2xY1HP7HEUMtepx+27nXY2USUUMtoMIy+5ZbdXqNrqGFmreCYMA0haDDvlueNXt1La1GPD1
+        vW0ToiQEvEuSjoTV9nyIKwbrbN0u7fgwMUQtk0gMOkzrxuHKQjcQx1wxIOxGiQz6bEb+KGKI8th8tTMn
+        rhgmqL7C+XoCrSNJWmKY40BzudrnSnX/opZJJAYY3CdphiQbTt8nf+OegysGHNdzC4RUjKt4AWC1OUMU
+        Mbh1Y2ZtL/9wDHZwpaNfaYkB8xxbF8SAIRMvDBtpDRPPqLrAzU7OMWdAX60dPaQ2UiaxGHSHw/7GBMe+
+        6l3q2LOnVqP6VOfxt31tcuC7bXFFlZYYMDGsxkCLP0lkwJymHmcc19sINVJmVMWAKwb91DLO0v01OpZE
+        DPW+JxktMUCM/SF9wjxCzweSiAE26ol9xGOHDZRJJAbc3cJEaVDBwNmAS6qwu372LEYI1ZddmGTiOt0K
+        p5HIgLohNpSFCO2ZhLrRxvJKcfVKKzKgSrR7pyT0HQlDEtqSphhgZ5Yk3OW0EQfv+H++0zf9b5wyicRQ
+        ow08RAIkQAIkQAIkQAIkkDaBts6eT17YcfdVOo3r7FrU1tG9qVYaW+p5pq3U018rjS11H5HjJkLS9exo
+        6+gpjVm37mNp9zX39Y3r6prgOgv/t5W6bwt1Vql7d5iDxHlnIjgliuOyzNM/vqPjvblzIhodz2lhZ1X3
+        m1k7TERyLPTsrhMZRIjXh/VXf4aoU9eRvb1jdZmxpa71Yzt7fmDFe2FH181162g0Q6jDpGPhZ1nPjiph
+        MLOzI4ASFo4lnI4M5QJyeVgfEWEaZZZ1uXLUKw2dGOM6umZU2nfUExYmBdpe13GB6jNyXLnxkZ0W5rBc
+        hsQUlQLHBwyHfCZiH1G9gPtwWuEzmNRUOK08GQoLi6LQMKddIOJMkUHhqxryb3muUxaB+OPVmsNDyFlX
+        ESbDwmOkMavwrvAHAEOXnJwPv3uiS3SVk7LoEdKfRzxZHhJCxRXOjjzNazxha02z5XsZQ8NCP+8ptKaP
+        Y/WKkSAWLmYmARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIg
+        ARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIg
+        ARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIg
+        ARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARJoSQKTlj5hOh79p/nqw/9oKC3dcMzotOiu
+        AdOSoIrQqTk37TUvn3jD/O20aSgdesUYnRbe+RuKIa/CsWJ46Y/nTBoJkSavLArf7utK+83xv7+ZihAg
+        Joohx5KiGHLsvLSbfuM9z5k/D/6HkSFtsHms79b7D5u/vnqeYsij89Ju851bfmdOvkYxpM01l/Wt3/qS
+        GTxFMeTSeWk3+js7/2BeO/MWh4m0weaxvod+8oo5/frbFEMenZd2m7f/4i/m9XPvUAxpg81jfbsPnDTn
+        3qAY8ui71Nv87JFT5vxb/2NkSJ1sDit8sn/QvPNfiiGHrku/yfguIe2UfitZY1MR2LxtN7+NbCqPeGzM
+        whs6KQaP/JvKNMXQVO7w2xiKwS//prJOMTSVO5I1Zs++Q6bjvkcbTmt7txkIopG0a8+znG8kc1+6pSGE
+        JDX+68y/Gy6f9pXI5V+fNmH2uhl3X7npiqOffejTZsmP5ptlP/uc+dK+a8wt+5cfveO5W9bf9evbJyTp
+        b0uXTSqGJHDSGmI+vnLyFEmrJQ0u3fWZgQeObDTffvFes3ng/orU/fxaI4IYFEFclaTdLVs272IQAUyS
+        dFSSuf6J9sFrfrygHBEWfneOkQhhECF6Dt0xLIr7frsegjhIQYRIOs9iEAHMlLR/5m3T3v78T9vPiPPb
+        JX1Ad/PK3itK7X1zjTjfPPhib1kUMmRAEKWWPcMb7VhexWCF0P7I3D+JAC6r1X85XkKEKPV/zWAIuedw
+        52kRxO9FEBwuNLi8iiGu+MsR4pG5ZsPhkvnmC12DiA6SGB2KKAb0WQRRjg4YMr7w88W4yjgaV1QtnX/t
+        vd9v+NIwKZgV33ggU9u4zJShwdx+8Gaz+sAKI5ehmdpPyitReR8rqX3YrAcJ9xkghDUHbzK37r/RrPzV
+        MnPDL5eUP8NVCFK9OnJ/3MdKah82ozgKl5tffvo688W9Vxu58jC4BF30vXnFEAIA+VhJ7cNmFDGU5wxy
+        32HJD+cbTCQXbp5THCGg8z4Wz/qwGVUMyHfZ6qnlm1GFGBo0GB+O8WEzjhiQt3BCQKd9rKT2YTOuGAqZ
+        38dKah82C+ncuJ32sZLah824XAqZ38dKah82C+ncuJ32sZLah824XAqZ38dKah82C+ncuJ32sZLah824
+        XAqZ38dKah82C+ncuJ32sZLah824XAqZ38dKah82C+ncuJ1OexV1lF1efdiMy4X5SYAESKA6gWZ8EIf+
+        8kSgWR/E8YSj2Gab+UGcYnvGQ+/z8OyFByzFNEkxFNPvob3mgzgUwzABPohDMQwT4IM4FMMwAT6IQzEM
+        E+CDOBTDMAE+iEMxDBPggzgUwzABPojTRGLwvbKJD+I0iRggBKx5xNpHX03igzi+yCu7EAJWQWM1NFZF
+        QxQ+msUHcXxQd4SAfRGwPwL2ScB+Cdg3AfsneG5aVfNpb17arP3MtF12lxTsmIKdU7CDCnZSwY4qdifX
+        TBsU0Vham5dGNFesbNhLCXsqYW8l7LEEITQzAYphFL2DXdaw2xp2XcPua9iFbRTNJa6aYkiMsHoF2H8R
+        +zBiP0bsy4iJJPZpHEWTiaqmGBLhq10YO7Nih1bs1IodWxEdsIMrdnKtVRI7wWJHWGwRjB1iozaRP6MQ
+        lZSnfNi7GdEBezljT2cMGdjj2Y0Q2Asae0Jjb2jsER1XCOhe0l1wm+lnFDy5a3TNYld37O6OXd7tTwFg
+        9/cgQpR3hcflJi5BsVt8cCWC3eMnxW1ZUjHEtafzc4iJSC8QxCB+B8L9bQj8XgSGEPx+BH5HIvg9iSkR
+        q67IRjE0Qs1DGfwyDH4hBr8UY3dyRUQIIsRR/LIMfmEmSdMohiT0WqwsxdBiDk3SHYohCb0WK0sxtJhD
+        k3SnSD+jkIRT7sv6WEntw2buHZVFB3yspPZhMwuWubfhYyW1D5u5d1QWHfCxeNaHzSxY5t6GD8f4sJl7
+        R2XRAR8rqX3YzIJl7m34WEntw2buHZVFB3yspPZhMwuWubfhYyW1D5u5d1QWHfCxktqHzSxY5t6Gj5XU
+        Pmzm3lFZdMDHSmofNrNgmXsbPlZS+7CZe0dl0QEfK6l92MyCZe5t+FhJ7cNm7h2VRQd8rKT2YTMLlrRB
+        AiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRA
+        AiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRA
+        AiRQg8D/AZvIWdsrNTZCAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>SchemaDiff is Licensed under the following terms
+Apache License
+Version 2.0, January 2004
+&lt;http://www.apache.org/licenses/&gt; 
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 
+1. Definitions.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. 
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License. 
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity. 
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License. 
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files. 
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types. 
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below). 
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof. 
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution." 
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work. 
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form. 
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed. 
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions: 
+a.	You must give any other recipients of the Work or Derivative Works a copy of this License; and 
+b.	You must cause any modified files to carry prominent notices stating that You changed the files; and 
+c.	You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and 
+d.	If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License. 
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions. 
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file. 
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License. 
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages. 
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. 
+</value>
+  </data>
+</root>

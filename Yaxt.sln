@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaTool", "Yaxt\SchemaTool.csproj", "{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.Util.XsdDiff", "MohawkCollege.EHR.Util.XsdDiff\MohawkCollege.EHR.Util.XsdDiff.csproj", "{317975DC-4B8E-4317-A02D-309354D5D3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.Util.SimpleXSD", "MohawkCollege.EHR.Util.SimpleXSD\MohawkCollege.EHR.Util.SimpleXSD.csproj", "{67EB17AC-E192-41FC-94C8-2289E54B4387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317975DC-4B8E-4317-A02D-309354D5D3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317975DC-4B8E-4317-A02D-309354D5D3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317975DC-4B8E-4317-A02D-309354D5D3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317975DC-4B8E-4317-A02D-309354D5D3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EB17AC-E192-41FC-94C8-2289E54B4387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EB17AC-E192-41FC-94C8-2289E54B4387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EB17AC-E192-41FC-94C8-2289E54B4387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EB17AC-E192-41FC-94C8-2289E54B4387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
