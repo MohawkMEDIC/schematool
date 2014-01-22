@@ -116,7 +116,8 @@ namespace SchemaTool
             else if (e.Progress >= 0)
             {
                 pgStatus.Style = ProgressBarStyle.Continuous;
-                pgStatus.Value = e.Progress;
+                if(e.Progress <= pgStatus.Maximum)
+                    pgStatus.Value = e.Progress;
             }
             Application.DoEvents();
         }

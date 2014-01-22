@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaTool", "Yaxt\SchemaTool.csproj", "{FB66939D-8FFC-4A2A-884B-47F8A932B6A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MohawkCollege.EHR.Util.XsdDiff", "MohawkCollege.EHR.Util.XsdDiff\MohawkCollege.EHR.Util.XsdDiff.csproj", "{317975DC-4B8E-4317-A02D-309354D5D3C1}"
