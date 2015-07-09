@@ -65,6 +65,7 @@
     <Compile Include="XmlSchemaType.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MohawkCollege.EHR.Util.SimpleXSD.licenseheader" />
     <None Include="MohawkCollege.EHR.Util.SimpleXSD.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

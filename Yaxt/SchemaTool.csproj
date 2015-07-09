@@ -193,6 +193,7 @@
     </Compile>
     <Compile Include="SelectionChangedEventArgs.cs" />
     <Compile Include="StatusChangedEventArgs.cs" />
+    <None Include="Yaxt.licenseheader" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Comparison-Include.ico" />
