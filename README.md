@@ -8,3 +8,6 @@ The schema tool provides these utilities:
 * An XML Schema Differencing tool which illustrates changes in schema structures
 * An XPath building tool (in the Schema Viewer). This tool allows developers to quickly build Xpaths based on schema structures
 * An XML Schema Copy tool which copies all dependent schemas.
+
+
+<img src="http://te.marc-hi.ca/projects/XSDT/ss0.png" />
